@@ -1,0 +1,31 @@
+@import '../../ui-kit/main.scss';
+
+.photo-card {
+  min-height: 40vh;
+  background-image: url('https://josejpr.s3.eu-central-1.amazonaws.com/photo.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 991.98px) {
+
+  .bg-avatar {
+    background-image: url('https://josejpr.s3.eu-central-1.amazonaws.com/photo.jpg');
+    background-position: -15% center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+  }
+
+  .photo-card {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {  
+
+  .bg-avatar {
+    background-position: -5% center;
+    background-size: auto 100%;
+  }
+}

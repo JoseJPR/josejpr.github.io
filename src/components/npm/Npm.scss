@@ -1,0 +1,27 @@
+@import '../../ui-kit/main.scss';
+
+.npm{
+  
+  .fa-npm{
+    &:before{
+      font-size: 80px;
+    }
+  }
+
+  &__list {
+    border-left: solid 5px $ui-color-blue;
+  }
+
+  &__packages-icon{
+    text-align: center;
+    width: 100%;
+  
+    &:before{
+      font-size: 80px;
+    }
+  }
+
+  .fa-npm{
+    color: $ui-color-npm;
+  }
+}

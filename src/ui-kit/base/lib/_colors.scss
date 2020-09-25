@@ -1,0 +1,124 @@
+@import './animate';
+
+// Generic colors
+$ui-color-blue: #6a1fff;
+$ui-color-green: #51f99f;
+$ui-color-dark: #2f3542;
+$ui-color-grey: #767676;
+$ui-color-white: #ffffff;
+
+// Social Colors
+$ui-color-github: #171515;
+$ui-color-linkedin: #0072b1;
+$ui-color-twitter: #00acee;
+$ui-color-instagram: #8a3ab9;
+$ui-color-medium-m: #57ad68;
+$ui-color-adobe: #ed2224;
+$ui-color-gulp: #d34a47;
+$ui-color-js: #f7df1e;
+$ui-color-npm: #cb3837;
+$ui-color-youtube: #ff0200;
+
+.ui-c-blue{
+  color: $ui-color-blue
+}
+
+.ui-bg-blue{
+  background-color: $ui-color-blue
+}
+
+.ui-c-green{
+  color: $ui-color-green
+}
+
+.ui-bg-green{
+  background-color: $ui-color-green
+}
+
+.ui-c-dark{
+  color: $ui-color-dark
+}
+
+.ui-bg-dark{
+  background-color: $ui-color-dark
+}
+
+.ui-c-grey{
+  color: $ui-color-grey
+}
+
+.ui-bg-grey{
+  background-color: $ui-color-grey
+}
+
+.ui-c-white{
+  color: $ui-color-white
+}
+
+.ui-bg-white{
+  background-color: $ui-color-white
+}
+
+.ui-c-github{
+  color: $ui-color-github;
+}
+
+.ui-c-linkedin{
+  color: $ui-color-linkedin;
+}
+
+.ui-c-twitter{
+  color: $ui-color-twitter;
+}
+
+.ui-c-instagram{
+  color: $ui-color-instagram;
+}
+
+.ui-c-medium-m{
+  color: $ui-color-medium-m;
+}
+
+.ui-c-adobe{
+  color: $ui-color-adobe;
+}
+
+.ui-c-gulp{
+  color: $ui-color-gulp;
+}
+
+.ui-c-js{
+  color: $ui-color-js;
+}
+
+.ui-c-npm{
+  color: $ui-color-npm;
+}
+
+.ui-c-pwa{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('https://josejpr.s3.eu-central-1.amazonaws.com/pwa.svg');
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  transition: all 500ms $easeOutCubic;
+
+  &:hover{
+    background-image: url('https://josejpr.s3.eu-central-1.amazonaws.com/pwa-black.svg');
+  }
+}
+
+.ui-c-youtube{
+  color: $ui-color-youtube;
+}
+
+.ui-bg-gradient-blue-green{
+  background: $ui-color-blue;
+  background: linear-gradient(to right, $ui-color-blue 0%,$ui-color-green 100%);
+}
+
+.ui-shadow{
+  box-shadow: 0 20px 40px 0 rgba(92, 92, 92, 0.15);
+}

@@ -1,0 +1,18 @@
+@import '../../ui-kit/main.scss';
+
+.twitter{
+
+  &__icon {
+    &:before{
+      color: $ui-color-twitter;
+      font-size: 180px;
+    }
+  }
+  &__bg-image{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 240px
+  }
+}

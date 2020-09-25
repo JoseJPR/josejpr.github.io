@@ -1,0 +1,12 @@
+@import '../../ui-kit/main.scss';
+
+.ui-link {
+  transition: all 500ms $easeOutCubic;
+  border-bottom: solid 2px transparent;
+  
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: solid 2px currentColor;
+  }
+}

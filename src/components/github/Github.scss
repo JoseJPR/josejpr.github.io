@@ -1,0 +1,27 @@
+@import '../../ui-kit/main.scss';
+
+.github{
+  
+  .fa-github{
+    &:before{
+      font-size: 80px;
+    }
+  }
+
+  &__list {
+    border-left: solid 5px $ui-color-blue;
+  }
+
+  &__repositories-icon{
+    text-align: center;
+    width: 100%;
+  
+    &:before{
+      font-size: 80px;
+    }
+  }
+
+  .fa-js{
+    color: $ui-color-js;
+  }
+}

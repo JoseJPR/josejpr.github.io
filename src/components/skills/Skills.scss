@@ -1,0 +1,11 @@
+@import '../../ui-kit/main.scss';
+
+.skill-card {
+  border-left: solid 5px $ui-color-green;
+
+  h4::first-letter { 
+    font-size: 200%;
+    color: $ui-color-blue;
+  }
+
+}

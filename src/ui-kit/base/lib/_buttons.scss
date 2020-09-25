@@ -1,0 +1,12 @@
+.ui-button-green{
+  display: inline-block;
+  background-color: $ui-color-green;
+  color: $ui-color-blue;
+  padding: 1rem 2rem 1rem 2rem;
+  font-weight: 700;
+
+  &:hover{
+    background-color: $ui-color-blue;
+    color: $ui-color-green;
+  }
+}

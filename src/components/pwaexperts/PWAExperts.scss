@@ -1,0 +1,39 @@
+@import '../../ui-kit/main.scss';
+
+$ui-bg-blue-transparent: rgba(106, 31, 255, .4);
+
+.pwaexperts{
+
+  &__list {
+    border-left: solid 5px $ui-color-blue;
+  }
+
+  &__tutorial-icon{
+    text-align: center;
+    width: 100%;
+  
+    &:before{
+      font-size: 80px;
+    }
+  }
+
+  .fa-gulp{
+    color: $ui-color-gulp;
+  }
+
+  &__bg-image{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 270px
+  }
+
+  &__tag {
+    border-radius: 0.2rem;
+    background-color: $ui-bg-blue-transparent;
+    color: $ui-color-blue;
+    white-space: nowrap;
+    display: inline-block;
+  }
+}

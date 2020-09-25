@@ -1,0 +1,21 @@
+@import '../../ui-kit/main.scss';
+
+.phonegapspain{
+
+  &__list {
+    border-left: solid 5px $ui-color-blue;
+  }
+
+  &__tutorial-icon{
+    text-align: center;
+    width: 100%;
+  
+    &:before{
+      font-size: 80px;
+    }
+  }
+
+  .fa-gulp{
+    color: $ui-color-gulp;
+  }
+}
