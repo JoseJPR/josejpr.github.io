@@ -16,14 +16,13 @@ import Youtube from './components/youtube/Youtube';
 import Footer from './components/footer/Footer';
 
 /** Import services */
-import Social from "./services/social";
+import Social from './services/social';
 
 /** Import ui-kit design */
 import './ui-kit/main.scss';
 
 // Define App function like wrapper of all components.
-function App () {
-
+function App() {
   const [socialContent, setSocialContent] = useState([]);
 
   useEffect(() => {
@@ -37,8 +36,8 @@ function App () {
     fetchData();
   }, []);
 
-
   return (
+    // eslint-disable-next-line react/jsx-filename-extension
     <>
       <Header />
       <main>
