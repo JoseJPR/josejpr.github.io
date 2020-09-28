@@ -35,6 +35,7 @@ I work with the following web and apps for the preparation of web design and pro
 
 These are the methodologies and guides on which I'll base myself for the development of this web project.
 
+- [ESLint](https://www.npmjs.com/package/eslint)
 - [Airbnb JavaScript](https://github.com/airbnb/javascript)
 - [BEM](http://getbem.com/)
 
