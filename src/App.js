@@ -10,6 +10,7 @@ import Github from './components/github/Github';
 import Npm from './components/npm/Npm';
 import PWAExperts from './components/pwaexperts/PWAExperts';
 import Phonegapspain from './components/phonegapspain/Phonegapspain';
+import Collaborations from './components/collaborations/Collaborations';
 import Contact from './components/contact/Contact';
 import Twitter from './components/twitter/Twitter';
 import Youtube from './components/youtube/Youtube';
@@ -48,6 +49,7 @@ function App() {
         {socialContent.npm && <Npm content={socialContent.npm} />}
         {socialContent.pwaexperts && <PWAExperts content={socialContent.pwaexperts} />}
         {socialContent.phonegapspain && <Phonegapspain content={socialContent.phonegapspain} />}
+        {socialContent.collaborations && <Collaborations content={socialContent.collaborations} />}
         <Contact />
         {socialContent.twitter && <Twitter content={socialContent.twitter} />}
         {socialContent.youtube && <Youtube content={socialContent.youtube} />}

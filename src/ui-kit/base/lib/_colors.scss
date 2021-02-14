@@ -18,6 +18,7 @@ $ui-color-gulp: #d34a47;
 $ui-color-js: #f7df1e;
 $ui-color-npm: #cb3837;
 $ui-color-youtube: #ff0200;
+$ui-color-feather: #333333;
 
 .ui-c-blue{
   color: $ui-color-blue
@@ -93,6 +94,10 @@ $ui-color-youtube: #ff0200;
 
 .ui-c-npm{
   color: $ui-color-npm;
+}
+
+.ui-c-feather{
+  color: $ui-color-dark;
 }
 
 .ui-c-pwa{

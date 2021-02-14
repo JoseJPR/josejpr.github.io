@@ -1,5 +1,5 @@
 const strings = {
-  seo:{
+  seo: {
     keywords: 'Developer, Software Architect, JavaScript, NodeJS, ReactJS, QA Code, PWA Tech',
     author: 'José J. Pérez Rivas',
     copyright: 'José J. Pérez Rivas',
@@ -13,10 +13,10 @@ const strings = {
     image: 'https://josejpr.com/static/photo.jpg',
     url: 'https://josejpr.com/',
     twitter_site: '@JoseJ_PR',
-    twitter_creator: '@JoseJ_PR'
+    twitter_creator: '@JoseJ_PR',
   },
   global: {
-    fullname: 'José J. Pérez Rivas',
+    fullname: 'José J. (Pepe)',
     href: 'https://josejpr.com',
     url: 'josejpr.com',
     email: 'me@josejpr.com',
@@ -24,34 +24,34 @@ const strings = {
     social: [
       {
         url: 'https://github.com/JoseJPR',
-        icon: 'github'
+        icon: 'github',
       },
       {
         url: 'https://www.npmjs.com/~josejpr',
-        icon: 'npm'
+        icon: 'npm',
       },
       {
         url: 'https://www.linkedin.com/in/josejpr/',
-        icon: 'linkedin'
+        icon: 'linkedin',
       },
       {
         url: 'https://twitter.com/JoseJ_PR',
-        icon: 'twitter'
+        icon: 'twitter',
       },
       {
         url: 'https://www.youtube.com/channel/UC13qkJjc46F2A9bAmD8ALVw',
-        icon: 'youtube'
+        icon: 'youtube',
       },
       {
         url: 'https://www.phonegapspain.com/users/ceroyuno/',
-        icon: 'adobe'
-      }
+        icon: 'adobe',
+      },
     ],
     socialSVG: [
       {
         url: 'https://pwaexperts.io/profile/JoseJPR',
-        icon: 'pwa'
-      }
+        icon: 'pwa',
+      },
     ],
     links: {
       adobe: 'https://www.phonegapspain.com/users/ceroyuno/',
@@ -61,193 +61,192 @@ const strings = {
       twitter: 'https://twitter.com/JoseJ_PR',
       npm: 'https://www.npmjs.com/~josejpr',
       pwaexperts: 'https://pwaexperts.io',
-      youtube: 'https://www.youtube.com/channel/UC13qkJjc46F2A9bAmD8ALVw'
-    }
+      youtube: 'https://www.youtube.com/channel/UC13qkJjc46F2A9bAmD8ALVw',
+    },
   },
   error: {
-    title: `Ups! Before compiled`,
-    text: `A 404 page is what a user sees when they try to reach a non-existent page on your site (because they've clicked on a broken link, the page has been deleted, or they've mistyped a URL).`,
-    cat: `Ah! and I introduce you to #Uno, one of my kittens.`
+    title: 'Ups! Before compiled',
+    text: 'A 404 page is what a user sees when they try to reach a non-existent page on your site (because they\'ve clicked on a broken link, the page has been deleted, or they\'ve mistyped a URL).',
+    cat: 'Ah! and I introduce you to #Uno, one of my kittens.',
   },
   connection: {
-    title: `Ups! It seems that your internet connection doesn't work. The site will show reduced content.`
-  }, 
+    title: 'Ups! It seems that your internet connection doesn\'t work. The site will show reduced content.',
+  },
   header: {
-    year: 'Welcome ' + (new Date()).getFullYear()
+    year: `Welcome ${(new Date()).getFullYear()}`,
   },
   profile: {
     resume: [
       'I´m ',
-      'Developer ', 
+      'Developer ',
       '& ',
       'Software Architect ',
-      'based in Seville.'
-    ],    
-    full_resume: [
-      'JavaScript Developer · UX/UI Lover · Open Source Defender',
-      'I´m enthusiatic about my work with: JavaScript, NodeJS, ReactJS, QA Code & PWA Tech.',
-      'Founder of PWA Experts I/O and PhoneGap Spain Communities and Adobe CP'
+      'based in Seville.',
     ],
-    sendto: 'Send email to:'
+    full_resume: [
+      '🥑 OpenSource & InnerSource Defender ✍️ ⬡ NodeJS Contributor & Translator',
+      'Founder of PWA Experts I/O and PhoneGap Spain Communities',
+    ],
+    sendto: 'Send email to:',
   },
   skills: [
-    { 
+    {
       title: 'Backend',
       url: '',
       image: '',
       technologies: [
-        { 
+        {
           title: 'NodeJS / PHP',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'MongoDB / DynamoDB',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'MySQL / PostgreSQL',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'PouchDB / Redis',
           url: '',
-          image: ''
+          image: '',
         },
-      ]
+      ],
     },
-    { 
+    {
       title: 'Frontend',
       url: '',
       image: '',
       technologies: [
-        { 
+        {
           title: 'JavaScript / React / Angular',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'Web Components',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'PWA / IndexedDB / Workbox',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'CSS / Scss / Sass',
           url: '',
-          image: ''
+          image: '',
         },
-      ]
+      ],
     },
-    { 
+    {
       title: 'Mobile',
       url: '',
       image: '',
       technologies: [
-        { 
+        {
           title: 'Progressive Web Apps',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'Apache Cordova',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'PhoneGap',
           url: '',
-          image: ''
-        }
-      ]
+          image: '',
+        },
+      ],
     },
-    { 
+    {
       title: 'QA Code',
       url: '',
       image: '',
       technologies: [
-        { 
+        {
           title: 'ESLint / Jest',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'BEM / Stylint',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'Autocannon / Artillery / Clinic',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'Dependency Strategy',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'Docker',
           url: '',
-          image: ''
+          image: '',
         },
-      ]
+      ],
     },
-    { 
+    {
       title: 'Cloud / Infraestructure',
       url: '',
       image: '',
       technologies: [
-        { 
+        {
           title: 'GCP / AppEngine / Functions / PubSub / Memory Store / BigQuery...',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'AWS / EC2 / Elastic Beanstalk / SQS / SNS / S3 / Lambda...',
           url: '',
-          image: ''
+          image: '',
         },
-      ]
+      ],
     },
-    { 
+    {
       title: 'Design UX / UI',
       url: '',
       image: '',
       technologies: [
-        { 
+        {
           title: 'PhotoShop',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'Adobe XD',
           url: '',
-          image: ''
+          image: '',
         },
-        { 
+        {
           title: 'Sketch',
           url: '',
-          image: ''
-        }
-      ]
+          image: '',
+        },
+      ],
     },
   ],
   contact: {
     title: {
-      es: "¿Quieres contactar conmigo?",
-      en: "Would you like to contact me?"
-    }
+      es: '¿Quieres contactar conmigo?',
+      en: 'Would you like to contact me?',
+    },
   },
   api: {
-    github: 'josejpr'
-  }
-}
+    github: 'josejpr',
+  },
+};
 
-export default strings
+export default strings;
